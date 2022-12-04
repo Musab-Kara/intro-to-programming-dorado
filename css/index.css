@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    width: 50%;
+    margin: 0 auto 0 auto;
+    font-size: 60px;
+    font-family: 'Sacramento', cursive;
+    color: #ab9170;
+    line-height: 2;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #ab9170;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.X {
+    background-color: #344b3c;
+    position: relative;
+    padding-top: 100px;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.upper-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+
+
+}
+
+
+
+.name {
+    font-size: 2.5rem;
+}
+
+.jobname {
+
+    font-size: medium;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+.profpic {
+
+    width: 200px;
+    height: auto;
+
+}

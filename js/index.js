@@ -3,7 +3,7 @@ var thisYear = today.getFullYear();
 const footer = document.querySelector("footer");
 const copyright = document.createElement("p");
 
-copyright.innerHTML = `<center> Musab ${thisYear} </center>`;
+copyright.innerHTML = `<center> Musab © ${thisYear} </center>`;
 footer.appendChild(copyright);
 
 const skills = ["Mathematic", "Phisic", "Chemstry", "Biology", "Astronomy", "Electric"];
@@ -12,7 +12,7 @@ const skillsSection = document.getElementById("skills");
 
 const skillsList = skillsSection.lastElementChild;
 
-for (let i = 0; i <= skills.length; i++) {
+for (let i = 0; i <= skills.length - 1; i++) {
 
 
     let skill = document.createElement("li");
