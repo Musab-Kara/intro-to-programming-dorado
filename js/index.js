@@ -3,7 +3,11 @@ var thisYear = today.getFullYear();
 const footer = document.querySelector("footer");
 const copyright = document.createElement("p");
 
+
 copyright.innerHTML = `<center> Musab ${thisYear} </center>`;
+
+copyright.innerHTML = `Musab ${thisYear}`;
+
 footer.appendChild(copyright);
 
 const skills = ["Mathematic", "Phisic", "Chemstry", "Biology", "Astronomy", "Electric"];
@@ -20,6 +24,7 @@ for (let i = 0; i <= skills.length; i++) {
     skill.innerHTML = skills[i];
 
     skillsList.appendChild(skill);
+
 
 
 }
@@ -60,7 +65,5 @@ messageForm.addEventListener("submit", function (event) {
 
 });
 
-
-
-
+}
 
