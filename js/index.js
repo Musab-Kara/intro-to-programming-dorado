@@ -4,9 +4,12 @@ const footer = document.querySelector("footer");
 const copyright = document.createElement("p");
 
 
+copyright.innerHTML = `<center> Musab © ${thisYear} </center>`;
+
 copyright.innerHTML = `<center> Musab ${thisYear} </center>`;
 
 copyright.innerHTML = `Musab ${thisYear}`;
+
 
 footer.appendChild(copyright);
 
@@ -16,7 +19,7 @@ const skillsSection = document.getElementById("skills");
 
 const skillsList = skillsSection.lastElementChild;
 
-for (let i = 0; i <= skills.length; i++) {
+for (let i = 0; i <= skills.length - 1; i++) {
 
 
     let skill = document.createElement("li");

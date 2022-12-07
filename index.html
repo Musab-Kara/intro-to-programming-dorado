@@ -9,119 +9,79 @@
     <meta name="author" content="Musab Kara">
 
     <title>Musab Kara Personal Page</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+        rel="stylesheet">
 
 </head>
 
 <body>
-    <table cellspacing="50">
+    <div class="X">
+        <img class="upper-cloud" src="images/cloud.png" alt="cloud">
+
+
+
+        <h1>Musab Sabri Kara</h1>
+
+        <h2 class="pro1">a <span class="pro">pro</span>grammer </h2>
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
+        <img src="images/mountain.png" alt="mountain">
+    </div>
+
+    <table cellspacing="60" class="ws">
         <tr>
-            <td> <img
-                    src="https://media-exp1.licdn.com/dms/image/C5603AQH7sTBnuN1WrQ/profile-displayphoto-shrink_200_200/0/1517283499248?e=2147483647&v=beta&t=yCg3Aenz7HTXmLf3lRjELX9v4HLdaWA_z0xA7R5oNEY"
-                    alt="Musab Profile Picture">
+            <td> <img class="profpic" src="images/ProfilePictureMaker1.png" alt="Musab Profile Picture">
             </td>
+            <td nowrap="nowrap">
+                <h3 class="name">Musab Kara</h3>
+                <p class="jobname"><strong>Web Developer</strong></p>
+            </td>
+
             <td>
-                <h1>Musab Kara</h1>
-                <p><em>Electrical <strong>Engineer</strong></em></p>
+                <p>Hello there ! My name is Musab. I was born in Turkey. I graduated from Electrical Engineering. I am
+                    currently working to be a full-stack web developer.</p>
             </td>
+
         </tr>
+
     </table>
+    <div class="wr2">
 
-    <h2>About</h2>
-    <p>Hello there ! My name is Musab. I was born in Turkey. I graduated from Electrical Engineering. I am currently
-        working to be a full-stack web developer.</p>
-    <hr>
+        <ul class="nomargin">
+            <h2 class="nomargin">Experience</h2>
 
+            <li>Lesson 1.1: JavaScript Basics</li>
+            <li>Lesson 1.2:JavaScript Functions</li>
+            <li>Lesson 1.3: JavaScript Loops</li>
+            <li>Lesson 1.4: JavaScript Arrays</li>
+            <li>Lesson 1.5: JavaScript Objects</li>
+        </ul>
+    </div>
 
-    <!-- <center>
-        <h3>Skills</h3>
+    <section id="skills" class="wr3" class="nomargin">
 
+        <ul class="nomargin">
+            <h2 class="nomargin">Skills</h2>
 
-
-        <table>
-            <tr>
-                <td>
-                    <table cellspacing="15">
-                        <tr>
-                            <td>Math</td>
-                            <td>⭐⭐⭐⭐⭐</td>
-                        </tr>
-
-                        <tr>
-                            <td>Phisic</td>
-                            <td>⭐⭐⭐⭐⭐</td>
-                        </tr>
-
-                        <tr>
-                            <td>Chemstry</td>
-                            <td>⭐⭐⭐⭐⭐</td>
-                        </tr>
-
-                    </table>
-
-
-                </td>
-                <td>
-
-
-
-                    <table cellspacing="15">
-                        <tr>
-                            <td>Biology</td>
-                            <td>⭐⭐⭐⭐⭐</td>
-                        </tr>
-
-                        <tr>
-                            <td>Astronomy</td>
-                            <td>⭐⭐⭐⭐⭐</td>
-                        </tr>
-
-                        <tr>
-                            <td>Electric</td>
-                            <td>⭐⭐⭐⭐⭐</td>
-                        </tr>
-
-                    </table>
-
-
-
-                </td>
-            </tr>
-
-            </td>
-            </tr>
-        </table>
-    </center>
-    
-    <hr> -->
-
-
-    <h2>Experience</h2>
-    <ul>
-        <li>Lesson 1.1: JavaScript Basics</li>
-        <li>Lesson 1.2:JavaScript Functions</li>
-        <li>Lesson 1.3: JavaScript Loops</li>
-        <li>Lesson 1.4: JavaScript Arrays</li>
-        <li>Lesson 1.5: JavaScript Objects</li>
-    </ul>
-    <hr>
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul></ul>
+        </ul>
 
 
 
     </section>
 
+    <div class="wr4">
 
-    <hr>
-    <h2>Connect</h2>
+        <h2 class="connect">Connect</h2>
 
-    <a href="mailto:msb.kara.94@hmail..com">My E-Mail Addres</a>
-    <a href="https://github.com/Musab-Kara">GitHub Link</a>
-    <footer>
+        <a href="mailto:msb.kara.94@hmail..com">My E-Mail Addres</a>
+        <a href="https://github.com/Musab-Kara">GitHub Link</a>
+
 
         <section>
-            <h2>Leave a Message</h2>
+            <h2>Leave Message</h2>
             <form name="leave_message" id="leave_message">
                 <label for="name">Name:</label><br>
                 <input type="text" id="name" required><br>
@@ -139,9 +99,7 @@
 
         <section id="message">
             <h2>Messages</h2>
-            <ul id="messageList">
-
-            </ul>
+            <ul id="messageList"></ul>
 
         </section>
         <footer>
@@ -184,7 +142,8 @@
 
 
         </footer>
-        <script src="js/index.js"></script>
+    </div>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
