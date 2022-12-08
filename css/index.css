@@ -24,19 +24,19 @@ h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
-.X {
+.introPage {
     background-color: #344b3c;
     position: relative;
     padding-top: 100px;
 }
 
-.pro {
+.jobTitle2 {
     text-decoration: underline;
     color: #ab9170;
 
 }
 
-.pro1 {
+.jobTitle {
 
     color: #ab9170;
 
@@ -87,12 +87,12 @@ ul {
 
 }
 
-.ws {
+.biography {
     margin-top: 0%;
     background-color: #4E6E60;
 }
 
-.wr2 {
+.experience {
     background-color: #637F67;
     margin-top: 0;
     margin-bottom: 0;
@@ -100,7 +100,7 @@ ul {
 
 }
 
-.wr3 {
+.skills {
 
     margin-top: 0px;
     margin-bottom: 0px;
@@ -111,7 +111,7 @@ ul {
     background-color: #81967E;
 }
 
-.wr4 {
+.connect-div {
     background-color: #B7C09A;
     margin-top: 0px;
     margin-bottom: 0px;
