@@ -217,7 +217,7 @@ except for the first one ("Home"). Show the list item that contains the link to 
 
 form {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
     gap: 16px;
@@ -238,6 +238,7 @@ form {
 }
 
 formButton {
+    position: center;
     flex-grow: 3;
     flex-basis: 180px;
 }
@@ -245,5 +246,14 @@ formButton {
 .leaveMessage {
     margin: 1cm;
     border: 1px solid #030303;
+    border-style: dashed solid;
+
+}
+
+.mybuton {
+
+    position: center;
+    padding-left: 40%;
+    padding-bottom: 1cm;
 
 }
