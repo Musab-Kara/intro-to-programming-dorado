@@ -62,7 +62,8 @@
         </tr>
 
     </table>
-    <div class="experience">
+
+    <!-- <div class="experience">
 
         <ul class="nomargin">
             <h2 class="nomargin">Experience</h2>
@@ -73,6 +74,16 @@
             <li>Lesson 1.4: JavaScript Arrays</li>
             <li>Lesson 1.5: JavaScript Objects</li>
         </ul>
+    </div> -->
+
+    <div class="container experience" id="container">
+        <h2>Experience</h2>
+        <div>Lesson 1.1: JavaScript Basics</div>
+        <div>Lesson 1.2:JavaScript Functions</div>
+        <div>Lesson 1.3: JavaScript Loops</div>
+        <div>Lesson 1.4: JavaScript Arrays</div>
+        <div>Lesson 1.5: JavaScript Objects</div>
+        <div>Lesson 1.5: JavaScript Objects</div>
     </div>
 
     <section id="skills" class="skills" class="nomargin">
@@ -94,25 +105,25 @@
         <a href="https://github.com/Musab-Kara">GitHub Link</a>
 
 
-        <section>
+        <section class="leaveMessage">
 
             <h2>Leave Message</h2>
+            <center>
+                <form name="leave_message" id="leave_message">
 
-            <form name="leave_message" id="leave_message">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" class="formName" required><br>
 
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" required><br>
+                    <label for="email">E-Mail Address:</label>
+                    <input type="email" name="email" class="formEmail" required><br>
 
-                <label for="email">E-Mail Address:</label><br>
-                <input type="email" name="email" required><br>
+                    <label for="message">Message:</label>
+                    <textarea name="message" required></textarea><br>
 
-                <label for="message">Message:</label><br>
-                <textarea name="message" required></textarea><br>
+                    <button type="submit" id="my-btn" class="formButton">Submit</button><br>
 
-                <button type="submit" id="my-btn">Submit</button>
-
-            </form>
-
+                </form>
+            </center>
         </section>
 
 

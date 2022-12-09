@@ -208,3 +208,42 @@ except for the first one ("Home"). Show the list item that contains the link to 
         text-align: left;
     }
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 30%;
+
+
+}
+
+.formName {
+    flex-grow: 3;
+    flex-basis: 20px;
+}
+
+.formEmail {
+    flex-grow: 1;
+    flex-basis: 20px;
+
+}
+
+formButton {
+    flex-grow: 3;
+    flex-basis: 180px;
+}
+
+.leaveMessage {
+    margin: 1cm;
+    border: 1px solid #030303;
+
+}
