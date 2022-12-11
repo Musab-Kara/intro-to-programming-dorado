@@ -257,3 +257,19 @@ formButton {
     padding-bottom: 1cm;
 
 }
+
+header {
+    position: sticky;
+    top: 0;
+    left: auto;
+    width: auto;
+    text-align: center;
+    padding: 0px;
+    border: none;
+}
+
+.myProject {
+    background-color: #ab9170;
+    margin: 0%;
+    padding: 10px;
+}
