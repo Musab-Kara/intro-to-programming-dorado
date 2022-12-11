@@ -76,24 +76,44 @@ function myFunction() {
 
 // week 6-1 
 
-const githubRequest = new XMLHttpRequest();
-githubRequest.open('GET', 'https://api.github.com/users/Musab-Kara/repos');
-githubRequest.send();
-githubRequest.onreadystatechange = function () {
-    if (githubRequest.readyState === 4) {
-        var repositories = JSON.parse(githubRequest.responseText);
-        console.log(repositories);
-        var projectSection = document.getElementById("projects");
-        var projectList = projectSection.querySelector("ul");
-        for (let i = 0; i < repositories.length; i++) {
-            var project = document.createElement('li');
-            var repositoryLink = document.createElement('a');
-            repositoryLink.href = repositories[i].html_url;
-            repositoryLink.innerHTML = repositories[i].name;
+// const githubRequest = new XMLHttpRequest();
+// githubRequest.open('GET', 'https://api.github.com/users/Musab-Kara/repos');
+// githubRequest.send();
+// githubRequest.onreadystatechange = function () {
+//     if (githubRequest.readyState === 4) {
+//         var repositories = JSON.parse(githubRequest.responseText);
+//         console.log(repositories);
+//         var projectSection = document.getElementById("projects");
+//         var projectList = projectSection.querySelector("ul");
+//         for (let i = 0; i < repositories.length; i++) {
+//             var project = document.createElement('li');
+//             var repositoryLink = document.createElement('a');
+//             repositoryLink.href = repositories[i].html_url;
+//             repositoryLink.innerHTML = repositories[i].name;
+//             projectList.appendChild(project);
+//             project.appendChild(repositoryLink);
+//         }
+
+//     }
+// };
+
+
+// week 6-2
+
+fetch('https://api.github.com/users/Musab-Kara/repos')
+    .then(response => response.json())
+    .catch(error => alert(error.message))
+    .then(data => {
+        console.log(data)
+        const projectSection = document.getElementById("projects");
+        const projectList = projectSection.querySelector("ul");
+        for (let i = 0; i < data.length; i++) {
+            const project = document.createElement('li');
+            const repoLink = document.createElement('a');
+            repoLink.href = data[i].html_url;
+            repoLink.innerHTML = data[i].name;
             projectList.appendChild(project);
-            project.appendChild(repositoryLink);
+            project.appendChild(repoLink);
+
         }
-
-    }
-};
-
+    })
