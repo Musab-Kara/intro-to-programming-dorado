@@ -104,7 +104,7 @@ ul {
 
     margin-top: 0px;
     margin-bottom: 0px;
-    padding: 3%;
+    padding: 5%;
 
 
     outline: 0px solid transparent;
@@ -115,7 +115,7 @@ ul {
     background-color: #B7C09A;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding: 3%;
+    padding: 5%;
 
 }
 
@@ -237,7 +237,7 @@ form {
 
 }
 
-formButton {
+.formButton {
     position: center;
     flex-grow: 3;
     flex-basis: 180px;
@@ -271,5 +271,5 @@ header {
 .myProject {
     background-color: #ab9170;
     margin: 0%;
-    padding: 10px;
+    padding: 25px;
 }
